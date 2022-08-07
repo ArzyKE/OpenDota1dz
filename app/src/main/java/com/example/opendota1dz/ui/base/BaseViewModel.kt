@@ -1,4 +1,6 @@
 package com.example.opendota1dz.ui.base
 
-class BaseViewModel {
+import androidx.lifecycle.ViewModel
+
+abstract class BaseViewModel : ViewModel(){
 }

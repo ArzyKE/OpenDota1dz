@@ -1,5 +1,6 @@
 package com.example.opendota1dz.data.models
 
+import com.example.opendota1dz.ui.base.IBaseDiffModel
 import com.google.gson.annotations.SerializedName
 
 data class HeroesModel(
@@ -10,7 +11,7 @@ data class HeroesModel(
     @SerializedName("name")
     val name: String,
     @SerializedName("id")
-    val id: Int,
+    override val id: Int,
     @SerializedName("localized_name")
     val localizedName: String
-)
+) : IBaseDiffModel
