@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "OpenDota1dz"
-include ':app'
+include( ":app")
